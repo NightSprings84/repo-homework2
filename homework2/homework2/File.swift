@@ -34,3 +34,20 @@ for _ in 0...99 {
 }
 
 print(arrayOne)
+func indexNumber (ourNumber: Int){
+    if ourNumber % 2 == 0 || ourNumber % 3 == 0{
+        arrayOne.remove(at: index)
+    }
+}
+
+var arrayOne: [Int] = []
+
+var index = 0
+
+for _ in 0...99 {
+    index += 1
+    arrayOne.append(index)
+    indexNumber(ourNumber: arrayOne[index])
+}
+
+print(arrayOne)
