@@ -24,3 +24,13 @@ var number3 = 89
 
 evenNumber(ourNumber: number)
 onthree(threeNumber: number3)
+var arrayOne: [Int] = []
+
+var index = 0
+
+for _ in 0...99 {
+    index += 1
+    arrayOne.append(index)
+}
+
+print(arrayOne)
